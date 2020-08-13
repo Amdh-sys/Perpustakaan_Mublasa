@@ -238,7 +238,9 @@ desired effect
       <!-- To the right -->
 
       <!-- Default to the left -->
-      <strong>Copyright &copy; 2019 <a href="www.smarak.net">SMAN 1 NAGRAK</a>.</strong> All rights reserved.
+      <div class="copyright text-center my-auto"><a href="http://sdmublasa.sch.id">
+          <span>Copyright &copy; SD MUBLASA <?= date('Y'); ?></span>
+      </div>
     </footer>
 
     <!-- Control Sidebar -->

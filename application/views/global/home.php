@@ -10,7 +10,7 @@
 		<div class="col m12">
 			<div class="card-panel teal darken-2 center white-text">
 				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus qui iure, inventore repudiandae dolor velit. Tempore, magni possimus officia nobis quam voluptatem fuga officiis aliquam molestiae, quas corrupti necessitatibus consectetur libero doloremque! Quod corporis eaque, eveniet qui distinctio omnis reprehenderit excepturi sunt praesentium aliquam repellat similique doloremque animi dolorem ullam.
+				Perpustakaan SD Muhammadiyah Blawong 1 didirikan bertujuan untuk menyediakan pusat belajar sehingga dapat membantu pengembangan dan peningkatan minat baca, literasi informasi, bakat, serta kemampuan peserta didik.
 				</p>
 			</div>
 		</div>

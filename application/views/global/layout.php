@@ -94,7 +94,7 @@
     <div class="container">
       <div class="row">
         <div class="copyright text-center my-auto col-md-12 ">
-          <span>Copyright &copy; SD MUHAMMADIYAH BLAWONG 1 <?= date('Y'); ?></span>
+          <span>Copyright &copy; SD MUBLASA <?= date('Y'); ?></span>
         </div>
 
       </div>

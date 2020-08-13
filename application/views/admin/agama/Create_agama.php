@@ -25,7 +25,7 @@
                 <div class="form-group">
                   <label class="col-sm-2 control-label">Agama</label>
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" name="agama" placeholder="Agama" required="required" >
+                    <input type="text" class="form-control" name="agama" placeholder="Agama" required="required" autofocus>
                   </div>
                 </div>
               </div>

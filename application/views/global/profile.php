@@ -8,33 +8,51 @@
 	<div class="col m6">
 		<div class="card-panel teal darken-2 white-text">
 			<h6><b>Visi</b></h6>
+			<hr>
 			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni natus est, iste quae at deleniti, animi
-				maiores minus explicabo corporis cupiditate, reiciendis non facilis quasi assumenda laudantium. Ab,
-				molestiae odio!
+				MENJADIKAN PERPUSTAKAAN SEBAGAI WAHANA BELAJAR
 			</p><br>
 			<h6><b>Misi</b></h6>
+			<hr>
 			<li>
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, dolore.
+				Meningkatkan pelayanan
 			</li>
 			<li>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid magnam assumenda ipsa praesentium.
+				Memperbanyak Koleksi Buku
 			</li>
 			<li>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Meningkatkan minat baca warga sekolah
 			</li>
 			<li>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, deleniti distinctio.
+				Meningkatkan pengelolaan perpustakaan
+			</li>
+			<li>
+				Menggalang kerjasama dengan instansi
+			</li>
+			<li>
+				Meningkatkan efektifitas pemanfaatan dalam KBM
 			</li>
 		</div>
 	</div>
 	<div class="col m6">
 		<div class="card-panel teal darken-2 white-text">
-			<h6><b>Identitas Perpustakaan</b></h6>
+			<h6><b>Tujuan Perpustakaan</b></h6>
 			<hr>
 			<p>
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum eveniet quod atque animi architecto ad distinctio, magnam eaque non dicta commodi omnis reiciendis libero quaerat vel saepe suscipit voluptate excepturi fuga voluptatibus ut. Molestiae atque quis in rem omnis reiciendis facilis necessitatibus, enim inventore libero provident perferendis eius impedit nostrum magni voluptatem quia tempore nobis ipsum excepturi consequatur adipisci sequi repellat tenetur! Nam dolores perferendis, culpa beatae accusantium nemo, nostrum laboriosam quidem eos aspernatur saepe delectus atque iure, voluptatibus id officiis voluptatem fuga nesciunt. Beatae harum sint pariatur.
+				Perpustakaan SD Muhammadiyah Blawong 1 didirikan bertujuan untuk menyediakan pusat belajar sehingga dapat membantu pengembangan dan peningkatan minat baca, literasi informasi, bakat, serta kemampuan peserta didik.
 			</p>
+			<br>
+			<h6><b>Pengelola Perpustakaan</b></h6>
+			<hr>
+			<li>
+				Nama :
+			</li>
+			<li>
+				Alamat :
+			</li>
+			<li>
+				No.Telp :
+			</li>
 		</div>
 	</div>
 </div>

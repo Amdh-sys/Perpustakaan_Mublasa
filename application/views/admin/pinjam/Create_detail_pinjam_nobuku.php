@@ -22,7 +22,7 @@
     <form class="form-horizontal" method="post" action="<?php echo base_url(); ?>admin/Pinjam/updatedetnobuku" role="form">
       <div class="box-body">
         <div class="form-group">
-          <label class="col-sm-2 control-label">Anggota</label>
+          <!-- <label class="col-sm-2 control-label">Anggota</label> -->
           <div class="col-sm-5">
             <select name="id_anggota" class="js-example-basic-single form-control" disabled="disabled" data-placeholder="Klik untuk memilih">
               <?php foreach ($data_anggota->result_array() as $op2) {

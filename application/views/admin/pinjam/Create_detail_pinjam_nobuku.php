@@ -26,9 +26,11 @@
           <div class="col-sm-5">
             <select name="id_anggota" class="js-example-basic-single form-control" disabled="disabled" data-placeholder="Klik untuk memilih">
               <?php foreach ($data_anggota->result_array() as $op2) {
+                if ($op2['id_anggota'] == $pinjam['id_anggota']) {
               ?>
-                <option value="<?php echo $op2['id_anggota']; ?>" disabled=disable selected><?php echo $op2['nama']; ?></option>
+                  <option value="<?php echo $op2['id_anggota']; ?>" disabled=disable selected> <?php echo $op2['nama']; ?> </option>
               <?php
+                }
               }
               ?>
             </select>

@@ -55,8 +55,8 @@
 
   <!-- SideNav -->
   <ul class="sidenav" id="mobile-nav">
-    <li><a href="<?php echo base_url(); ?>Buku/list_buku">Tentang</a></li>
-    <li><a href="<?php echo base_url(); ?>Buku/profile">Pendidikan</a></li>
+    <li><a href="<?php echo base_url(); ?>Buku/list_buku">Daftar Buku</a></li>
+    <li><a href="<?php echo base_url(); ?>Buku/profile">Profil</a></li>
     <li><a class="btn orange" href="portofolio.php">MASUK</a></li>
   </ul>
   <!-- SideNav-end -->

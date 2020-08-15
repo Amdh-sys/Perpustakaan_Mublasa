@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 13 Agu 2020 pada 08.48
+-- Waktu pembuatan: 15 Agu 2020 pada 05.30
 -- Versi server: 10.4.13-MariaDB
 -- Versi PHP: 7.2.31
 
@@ -74,6 +74,14 @@ CREATE TABLE `tb_anggota` (
   `alamat` text NOT NULL,
   `ket` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `tb_anggota`
+--
+
+INSERT INTO `tb_anggota` (`id_anggota`, `nama`, `id_kelas`, `id_agama`, `jenis_kelamin`, `hp`, `alamat`, `ket`) VALUES
+('ANGG000001', 'Adam Hudayanto', 34, 2, 'L', '0895333972872', 'Blawong 2', ''),
+('ANGG000002', 'Yusup Hanafi', 39, 2, 'L', '-', 'Boyolali', '');
 
 -- --------------------------------------------------------
 
@@ -213,12 +221,73 @@ INSERT INTO `tb_buku` (`id_buku`, `ISBN`, `judul`, `id_kategori`, `id_penerbit`,
 ('209', '', '99 Fakta Unik Dan Ajaib DalamIslam', 17, 84, 128, 6, 2018, 1, ''),
 ('21', '', 'Buku Siswa Tema 7 Kebersamaan', 7, 12, 21, 6, 0000, 54, ''),
 ('210', '978-602-378-086-0', 'Menulis Huruf , Angka, Berhitung, Menggambar dan Mewarnai', 25, 85, 129, 6, 2018, 1, ''),
+('211', '978-602-250-206-7', '25 Kisah Nabi dan Rasul', 24, 77, 126, 6, 2019, 1, ''),
+('212', '978-602-1694-38-1', '42 Kisah Pilihan Hadist Arbain Untuk Anak', 24, 63, 126, 6, 2016, 1, ''),
+('213', '978-602-1694-75-6', 'Kisah Istimewa Asmaul Husna', 24, 63, 131, 6, 2019, 1, ''),
+('214', '978-602-97603-9-2', 'Muhammad Nabiku', 24, 63, 132, 6, 2018, 1, ''),
+('215', '978-602-1694-24-4', '45 Bidadari Surga', 24, 63, 133, 6, 2015, 1, ''),
+('216', '978-602-1694-47-3', '60 Hadist Qudsi Untuk Anak', 17, 63, 130, 6, 2017, 1, ''),
+('217', '978-602-1644-60-2', '64 Kisah Sebab Turunya Ayat Al-Qur\'an', 24, 63, 130, 6, 2018, 1, ''),
+('218', '978-602-249-311-2', '10 Dongeng Bajak Laut', 24, 61, 134, 6, 2008, 1, ''),
+('219', '978-602-317-275-7', 'Cerita Terbaik Pembentuk Budi Pekerti', 24, 59, 135, 6, 2016, 1, ''),
 ('22', '', 'Buku Siswa Tema 8 Keselamatan dirumah dan perjalanan', 7, 11, 22, 6, 0000, 52, ''),
+('220', '978-979-27-4933-5', 'Why ? Animals ', 24, 72, 136, 6, 2009, 1, ''),
+('221', '', 'Putri Hayyu dan Penyelamat Anak Ayam', 24, 89, 137, 6, 0000, 1, ''),
+('222', '978-602-430-231-3', 'Misteri Padang Gurun ', 24, 87, 138, 6, 2018, 1, ''),
+('223', '978-602-0514-33-8', 'Kreasi Busana Daerah Indonesia Warisan Nusantara', 21, 88, 139, 6, 2018, 1, ''),
+('224', '978-602-0865-52-2', 'Aku Mandi Sendiri', 24, 90, 114, 6, 2018, 1, ''),
+('225', '978-602-0865-54-6', 'Kamarku Bersih', 24, 90, 114, 6, 2018, 1, ''),
+('226', '978-602-0865-53-9', 'Bajuku Bagus', 24, 90, 114, 6, 2018, 1, ''),
+('227', '978-602-0865-47-8', 'Aku Rajin Bersedekah', 24, 90, 114, 6, 2018, 1, ''),
+('228', '', 'Aku Cinta Kebersihan', 24, 91, 115, 6, 0000, 1, ''),
+('229', '', 'Aku Anak Bertanggung Jawab', 24, 91, 115, 6, 0000, 1, ''),
 ('23', '', 'Buku Siswa Tema 8 Lingkungan Sahabat Kita', 10, 13, 9, 6, 0000, 55, ''),
+('230', '', 'Aku Gemar Menabung', 24, 91, 115, 6, 0000, 1, ''),
+('231', '', 'Aku Anak Yang Jujur', 24, 91, 115, 6, 0000, 1, ''),
+('232', '', 'Aku dan Kesukaanku', 24, 91, 115, 6, 0000, 1, ''),
+('233', '', 'Aku Sayang Keluargaku', 24, 91, 115, 6, 0000, 1, ''),
+('234', '', 'Aku dan Lingkunganku', 24, 91, 115, 6, 0000, 1, ''),
+('235', '', 'Aku Sayang Binatang', 24, 91, 115, 6, 0000, 1, ''),
+('236', '', 'Aku Sayang Tanaman', 24, 91, 115, 6, 0000, 1, ''),
+('237', '', 'Aku dan Kendaraan', 24, 91, 115, 6, 0000, 1, ''),
+('238', '', 'Aku dan Alam Semesta', 24, 91, 115, 6, 0000, 1, ''),
+('239', '', 'Aku Cinta Negaraku', 24, 91, 115, 6, 0000, 1, ''),
 ('24', '', 'Buku Siswa Tema 9 Benda-Benda disekitar kita', 10, 13, 11, 6, 0000, 55, ''),
+('240', '978-602-483-253-7', '4 Kata Ajaib : Terima Kasih', 24, 61, 116, 6, 2019, 1, ''),
+('241', '978-602-483-242-1', '4 Kata Ajaib : Maaf', 24, 61, 116, 6, 2019, 1, ''),
+('242', '978-602-483-239-1', '4 Kata Ajaib : Permisi', 24, 61, 116, 6, 2019, 1, ''),
+('243', '978-602-483-238-4', '4 Kata Ajaib : Tolong', 24, 61, 116, 6, 2019, 1, ''),
+('244', '978-602-250-441-2', 'Malu Barbuat Dosa : Mencicipi Kelengkeng Diam-Diam', 24, 77, 141, 6, 2017, 1, ''),
+('245', '978-602-250-432-0', 'Rendah Hati : Piala Impian Zaki', 24, 77, 141, 6, 2017, 1, ''),
+('246', '978-602-250-433-7', 'Berkata Baik : Pedang Dimulut Zaki', 24, 77, 141, 6, 2017, 1, ''),
+('247', '978-602-250-439-9', 'Menepati Janji : Janji Mbah Kurdi', 24, 77, 141, 6, 2017, 1, ''),
+('248', '978-602-250-438-2', 'Mendamaikan Yang Berseteru', 24, 77, 141, 6, 2017, 1, ''),
+('249', '978-602-250-440-5', 'Lemah Lembut : Suara Keras Tante Inet ', 24, 77, 141, 6, 2017, 1, ''),
 ('25', '', 'Panas dan Perpindahanya Tema 6', 10, 12, 23, 6, 0000, 2, ''),
+('250', '978-602-250-436-8', 'Menjaga Kehormatan Diri : Demi Tiga Ribu Rupiah', 24, 77, 141, 6, 2017, 1, ''),
+('251', '978-602-250-434-4', 'Memuliakan Tamu : Ada Tamu Misterius', 24, 77, 141, 6, 2017, 1, ''),
+('252', '978-602-250-435-1', 'Cerita : Kerut di Wajah Ibu', 24, 77, 141, 6, 2017, 1, ''),
+('253', '978-602-455-608-2', 'Ayo Rawat Telinga, Hidung, dan Tenggorakanmu', 15, 61, 142, 6, 2018, 1, ''),
+('254', '978-602-455-607-5', 'Ayo Rawat Matamu', 15, 61, 142, 6, 2018, 1, ''),
+('255', '978-602-455-606-8', 'Ayo Rawat Kulitmu', 15, 61, 142, 6, 2018, 1, ''),
+('256', '978-6022-183-771', 'Nabi Yusuf AS', 24, 64, 143, 6, 0000, 1, ''),
+('257', '978-602-250-564-8', 'Dapat di Percata : Godaan Sepotong Roti', 24, 77, 141, 6, 2018, 1, ''),
+('258', '978-6022-1831-81', 'Nabi Isa As', 24, 64, 143, 6, 0000, 1, ''),
+('259', '978-6022-1828-70', 'Nabi Dzulkifli AS', 24, 64, 143, 6, 0000, 1, ''),
 ('26', '', 'Peristiwa dalam Kehidupan Tema 7', 10, 12, 8, 6, 0000, 2, ''),
+('260', '978-6022-1828-63', 'Nabi Daud AS', 24, 64, 143, 6, 0000, 1, ''),
+('261', '', 'Nabi Adam AS', 24, 64, 143, 6, 0000, 1, ''),
+('262', '978-602-6356-23-9', 'Sudahkah Baca Shalawat ?', 24, 90, 114, 6, 2019, 1, ''),
+('263', '978-602-6356-21-5', 'Sudahkah Baca Auudzubillah ?', 24, 90, 114, 6, 2019, 1, ''),
+('264', '978-602-6356-21-5', 'Sudahkah Baca Allahuakbar ?', 24, 90, 114, 6, 2019, 1, ''),
+('265', '978-602-6356-27-7', 'Sudahkah Baca Hawqalah ?', 24, 90, 114, 6, 2019, 1, ''),
+('266', '978-602-6356-28-4', 'Sudahkah Baca Alhamdulillah ?', 24, 90, 114, 6, 2019, 1, ''),
+('267', '978-602-6356-28-4', 'Sudahkah Mengucap Salam ?', 24, 90, 114, 6, 2019, 1, ''),
+('268', '978-602-6356-25-3', 'Sudahkah Baca  Tahlil ?', 24, 90, 114, 6, 2019, 1, ''),
+('269', '978-602-6356-19-2', 'Sudahkah Baca  Subhanallah ?', 24, 90, 114, 6, 2019, 1, ''),
 ('27', '', 'Lingkungan Sahabat Kita Tema 8', 10, 12, 9, 6, 0000, 2, ''),
+('270', '978-602-6356-26-0', 'Sudahkah Baca  Basmallah ?', 24, 90, 114, 6, 2019, 1, ''),
+('271', '978-602-6356-20-8', 'Sudahkah Baca  Al-Qur\'an ?', 24, 90, 114, 6, 2019, 1, ''),
 ('28', '', 'Benda - Benda disekitar kita Tema 9', 10, 12, 11, 6, 0000, 2, ''),
 ('29', '', 'Keselamatan dirumah dan perjalanan Tema 8', 7, 12, 22, 6, 0000, 2, ''),
 ('3', '', 'Buku Tema 5 Pahlawanku', 9, 7, 7, 6, 0000, 50, ''),
@@ -3030,7 +3099,68 @@ INSERT INTO `tb_detail_buku` (`id_detail_buku`, `id_buku`, `no_buku`, `status`) 
 (2937, '207', '1', '1'),
 (2938, '208', '1', '1'),
 (2939, '209', '1', '1'),
-(2940, '210', '1', '1');
+(2940, '210', '1', '1'),
+(2941, '211', '1', '1'),
+(2942, '212', '1', '1'),
+(2943, '213', '1', '1'),
+(2945, '214', '1', '1'),
+(2946, '215', '1', '1'),
+(2947, '216', '1', '1'),
+(2948, '217', '1', '1'),
+(2949, '218', '1', '1'),
+(2950, '219', '1', '1'),
+(2951, '220', '1', '1'),
+(2952, '221', '1', '1'),
+(2953, '222', '1', '1'),
+(2954, '223', '1', '1'),
+(2955, '224', '1', '1'),
+(2956, '225', '1', '1'),
+(2957, '226', '1', '1'),
+(2958, '227', '1', '1'),
+(2959, '228', '1', '1'),
+(2960, '229', '1', '1'),
+(2961, '230', '1', '1'),
+(2962, '231', '1', '1'),
+(2963, '232', '1', '1'),
+(2964, '233', '1', '1'),
+(2965, '234', '1', '1'),
+(2966, '235', '1', '1'),
+(2967, '236', '1', '1'),
+(2968, '237', '1', '1'),
+(2969, '238', '1', '1'),
+(2970, '239', '1', '1'),
+(2971, '240', '1', '1'),
+(2972, '241', '1', '1'),
+(2973, '242', '1', '1'),
+(2974, '243', '1', '1'),
+(2975, '244', '1', '1'),
+(2976, '245', '1', '1'),
+(2977, '246', '1', '1'),
+(2978, '247', '1', '1'),
+(2979, '248', '1', '1'),
+(2980, '249', '1', '1'),
+(2981, '250', '1', '1'),
+(2982, '251', '1', '1'),
+(2983, '252', '1', '1'),
+(2984, '253', '1', '1'),
+(2985, '254', '1', '1'),
+(2986, '255', '1', '1'),
+(2987, '256', '1', '1'),
+(2988, '257', '1', '1'),
+(2989, '258', '1', '1'),
+(2990, '259', '1', '1'),
+(2991, '260', '1', '1'),
+(2992, '261', '1', '1'),
+(2993, '262', '1', '1'),
+(2994, '263', '1', '1'),
+(2995, '264', '1', '1'),
+(2996, '265', '1', '1'),
+(2997, '266', '1', '1'),
+(2998, '267', '1', '1'),
+(2999, '268', '1', '1'),
+(3000, '269', '1', '1'),
+(3001, '270', '1', '1'),
+(3002, '271', '1', '1');
 
 -- --------------------------------------------------------
 
@@ -3231,7 +3361,12 @@ INSERT INTO `tb_penerbit` (`id_penerbit`, `nama_penerbit`, `id_provinsi`) VALUES
 (83, 'Pelangi Mizan', 12),
 (84, 'Diva Press', 2),
 (85, 'PT. Wahyumedia', 19),
-(86, 'Grasindo', 7);
+(86, 'Grasindo', 7),
+(87, 'Bentang Belia', 2),
+(88, 'Kompas Gramedia', 7),
+(89, 'Mizan Media Utama', 12),
+(90, 'Perisai Qur\'an', 7),
+(91, 'Lingkar Media', 9);
 
 -- --------------------------------------------------------
 
@@ -3371,7 +3506,21 @@ INSERT INTO `tb_pengarang` (`id_pengarang`, `nama_pengarang`) VALUES
 (126, 'Tim Gema Insani'),
 (127, 'Kak Nung'),
 (128, 'Jaka Perdana Putra'),
-(129, 'Ammira Anna W,M.Pd');
+(129, 'Ammira Anna W,M.Pd'),
+(130, 'Muhamad Yasir,Lc'),
+(131, 'Aan Wulandari'),
+(132, 'Ummu Thoriq'),
+(133, 'Nurul Asmayani'),
+(134, 'Rini Nurul Badariah'),
+(135, 'Siti Anisah'),
+(136, 'Sutoyo Soh Daeyong, MEc,Msc'),
+(137, 'Laksmi Manuhara'),
+(138, 'YayanRika Harari'),
+(139, 'Ny. Fitri Idham Azis, dkk'),
+(140, 'Nurul Asmayani'),
+(141, 'Nurhayati Pujiastuti'),
+(142, 'dr. Fransisca Handy Sp.A'),
+(143, 'Ibnu Muhidin');
 
 -- --------------------------------------------------------
 
@@ -3650,13 +3799,13 @@ ALTER TABLE `tb_denda`
 -- AUTO_INCREMENT untuk tabel `tb_detail_buku`
 --
 ALTER TABLE `tb_detail_buku`
-  MODIFY `id_detail_buku` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2941;
+  MODIFY `id_detail_buku` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3003;
 
 --
 -- AUTO_INCREMENT untuk tabel `tb_detail_pinjam`
 --
 ALTER TABLE `tb_detail_pinjam`
-  MODIFY `id_detail_pinjam` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=122;
+  MODIFY `id_detail_pinjam` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=123;
 
 --
 -- AUTO_INCREMENT untuk tabel `tb_kategori`
@@ -3680,19 +3829,19 @@ ALTER TABLE `tb_kembali`
 -- AUTO_INCREMENT untuk tabel `tb_penerbit`
 --
 ALTER TABLE `tb_penerbit`
-  MODIFY `id_penerbit` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=87;
+  MODIFY `id_penerbit` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=92;
 
 --
 -- AUTO_INCREMENT untuk tabel `tb_pengarang`
 --
 ALTER TABLE `tb_pengarang`
-  MODIFY `id_pengarang` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=130;
+  MODIFY `id_pengarang` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=144;
 
 --
 -- AUTO_INCREMENT untuk tabel `tb_pinjam`
 --
 ALTER TABLE `tb_pinjam`
-  MODIFY `id_pinjam` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=106;
+  MODIFY `id_pinjam` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=107;
 
 --
 -- AUTO_INCREMENT untuk tabel `tb_provinsi`

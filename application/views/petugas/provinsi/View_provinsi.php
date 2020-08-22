@@ -38,7 +38,7 @@
     <div class="box-body">
         <div class="btn-group"><a href="<?php echo base_url(); ?>petugas/Provinsi/create" class="btn btn-success" role="button" data-toggle="tooltip" title="Tambah Provinsi"><i class="fa fa-plus"></i> Tambah provinsi</a></div>
         <div class="form-group"></div>
-        <table id="" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <table id="example2" class="table table-striped table-bordered" cellspacing="0" width="100%">
             <thead class="bg-warning">
                 <tr>
                     <th>No</th>

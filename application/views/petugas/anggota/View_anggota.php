@@ -28,7 +28,7 @@
   </div>
 </div>
 <!--content -->
-<div class="box box-solid box-primary">
+<div class="box box-solid box-success">
   <div class="box-header with-border">
     <h3 class="box-title"><i class="fa fa-book"></i> Daftar Anggota</h3>
     <div class="box-tools pull-right">

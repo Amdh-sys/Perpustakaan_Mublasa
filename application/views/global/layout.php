@@ -45,7 +45,7 @@
           <ul class="right hide-on-med-and-down">
             <li><a href="<?php echo base_url(); ?>Buku/list_buku">Daftar Buku</a></li>
             <li><a href="<?php echo base_url(); ?>Buku/profile">Profile Perputakaan</a></li>
-            <li><a class="btn orange" href="<?php echo base_url(); ?>/web/log">MASUK</a></li>
+            <li><a class="btn btn-primary" href="<?php echo base_url(); ?>/web/log">MASUK</a></li>
           </ul>
         </div>
       </div>

@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bootstrap/css/bootstrap-datepicker.css">
 <link rel="stylesheet" href="<?php echo base_url(); ?>assets/plugins/select2/select2.min.css">
 <!--content -->
-<div class="box box-solid box-warning">
+<div class="box box-solid box-success">
   <div class="box-header with-border">
     <h3 class="box-title"><i class="fa fa-plus"></i> <i class="fa fa-book"></i> Tambah Anggota</h3>
     <div class="box-tools pull-right">

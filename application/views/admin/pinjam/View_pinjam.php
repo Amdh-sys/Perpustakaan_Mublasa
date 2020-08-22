@@ -38,7 +38,7 @@
       <div class="btn-group">
         <td>
           <div align="left">
-            <a href="<?php echo base_url(); ?>admin/Pinjam" class="btn btn-danger" role="button" data-toggle="tooltip" title="Data Pinjam"></i>Data Pinjam</a>
+            <a href="<?php echo base_url(); ?>admin/Pinjam" class="btn btn-warning" role="button" data-toggle="tooltip" title="Data Pinjam"></i>Data Pinjam</a>
             <a href="<?php echo base_url(); ?>admin/pinjam/vw_kembali" class="btn btn-danger" role="button" data-toggle="tooltip" title="Data Kembali"></i>Data Kembali</a>
           </div>
         </td>
